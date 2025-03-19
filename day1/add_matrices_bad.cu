@@ -92,7 +92,7 @@ int main() {
      * pour obtenir la position unique de chaque thread dans la grille globale.
      */
 
-    dim3 threadsParBloc(16, 16);
+    dim3 threadsParBloc(16, 16); // 256 threads par bloc
     dim3 numBlocs((m + threadsParBloc.x - 1) / threadsParBloc.x,
                   (n + threadsParBloc.y - 1) / threadsParBloc.y);
 
