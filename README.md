@@ -48,16 +48,32 @@ Time spent : 50 minutes
 
 Objective :
 
-- [] Implementing a larger matrix multiplication
-- [] Implementing a convolution operation
-- [] Using nvidia nsight for the first time
+- [x] Implementing a larger matrix multiplication
+- [x] Implementing a convolution operation
+- [x] Using nvidia nsight for the first time
 
 Implemented :
 
-- `convolution2d.cu` : 
+- `matrix_multiplication_better.cu` : Better matrix multiplication, on a real word sized matrix
+- `gaussian_blur_vibe_coded.cu` : Gaussian blur kernel coded with cursor
 
 Learnt :
 
-- 
+- Learnt how to use 100% of my GPU
+- Used `sudo ncu -o profile ./binary` to profile the kernel, it's pretty cool
+- Implemented a gaussian blur kernel, but I used cursor to write the code so I don't really understand what happens, but you know I have some insights
 
-Time spent :
+Time spent : 1 hour
+
+## Day 4
+
+Objective :
+
+- [] Fully understand the gaussian blur kernel
+- [] Develop another operation on image manually
+- [] Read a little bit of the CUDA book
+
+Implemented :
+
+
+Time spent : 
