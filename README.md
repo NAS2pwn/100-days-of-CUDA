@@ -69,11 +69,32 @@ Time spent : 1 hour
 
 Objective :
 
-- [] Fully understand the gaussian blur kernel
+- [x] Fully understand the gaussian blur shit
 - [] Develop another operation on image manually
 - [] Read a little bit of the CUDA book
 
 Implemented :
 
+- `gaussian_blur_all_channels.cu` : Gaussian blur kernel, without channels loop
+
+Learnt :
+
+- Rotted on Internet trying to understand why convolution was created, and what does it means blurring an image using the gauss function
+- Nothing from CUDA book, my time was vampirized by the fascinate world of convolution
+- Trying to optimize is rude, I have bad time trying to optimize the gaussian blur kernel
+
+Time spent : 1 hour
+
+## Day 5
+
+Objective :
+
+- [] Fourier transform review
+- [] Read a little bit of the CUDA book
+- [] Figuring out how to optimize the gaussian blur kernel
+
+Implemented :
+
+Learnt :
 
 Time spent : 
