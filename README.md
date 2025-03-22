@@ -89,12 +89,18 @@ Time spent : 1 hour
 
 Objective :
 
-- [] Fourier transform review
-- [] Read a little bit of the CUDA book
-- [] Figuring out how to optimize the gaussian blur kernel
+- [x] Fourier transform review
+- [x] Implementing a DFT kernel
+- [x] Bind it to a python notebook
 
 Implemented :
 
+- `dft_day1.cu` : DFT kernel, not optimized
+- `dft.ipynb` : Python notebook to test the DFT kernel
+
 Learnt :
 
-Time spent : 
+- Learnt a lot about the Fourier transform, reviewed complex numbers, and learnt about the FFT
+- Learnt how to use the `extern "C"` keyword to bind a C++ function to a Python function
+
+Time spent : 2 hours
